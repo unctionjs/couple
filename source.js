@@ -1,3 +1,5 @@
-export default function tempLate (alpha: mixed): mixed {
-  return alpha
+export default function couple (left: mixed): Function {
+  return function coupleLeft (right: mixed): [mixed, mixed] {
+    return [left, right]
+  }
 }
