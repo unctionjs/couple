@@ -1,6 +1,6 @@
 {
   "name": "@unction/couple",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Takes a value and then another value and turns it into an array of those values",
   "keywords": [
     "unction",
