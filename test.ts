@@ -1,6 +1,6 @@
 
 import couple from "./index";
 
-test(() => {
+test("works", () => {
   expect(couple("a")("b")).toEqual(["a", "b"]);
 });
